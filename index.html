@@ -12,6 +12,7 @@
 	
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
 	<link href="css/theme.css" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/default.js"></script>
@@ -31,10 +32,12 @@
 	
 	
 	<div class="holder">
-		
+	
+	
+	<a href="detail1.html">
 	<div class="info-box">
 		
-		<img src="pix/food1.jpg" alt="food" />		
+		<img class="info-image" src="pix/food1.jpg" alt="food" />		
 		
 		<h1>Vorspeise</h1>
 		<img class="arrow" src="pix/arrow.png" alt="arrow" />
@@ -43,11 +46,13 @@
 		<div class="clear"></div>
 		
 	</div><!-- .info-box -->
+	</a>
 	
 	
+	<a href="detail2.html">
 	<div class="info-box">
 		
-		<img src="pix/food2.jpg" alt="food" />
+		<img class="info-image" src="pix/food2.jpg" alt="food" />
 		
 		<h1>Hauptgericht</h1>
 		<img class="arrow" src="pix/arrow.png" alt="arrow" />
@@ -56,11 +61,13 @@
 		<div class="clear"></div>
 		
 	</div><!-- .info-box -->
+	</a>
 	
 	
+	<a href="detail3.html">
 	<div class="info-box">
 		
-		<img src="pix/food3.jpg" alt="food" />
+		<img class="info-image" src="pix/food3.jpg" alt="food" />
 		
 		<h1>Nachtisch</h1>
 		<img class="arrow" src="pix/arrow.png" alt="arrow" />
@@ -69,6 +76,7 @@
 		<div class="clear"></div>
 		
 	</div><!-- .info-box -->
+	</a>
 	
 	</div><!-- .holder -->
 	
@@ -79,7 +87,7 @@
 		
 			<ul>
 				<li><a class="current-page" href="index.html">Home</a></li>
-				<li><a href="detail.html">Kategorien</a></li>
+				<li><a href="detail1.html">Kategorien</a></li>
 				<li><a href="impressum.html">Impressum</a></li>
 				<li><a href="index2.html">Hilfe</a></li>
 				
@@ -91,7 +99,7 @@
 	
 	
 	
-	<div class="popup">
+	<div class="popup js-popup1">
 		
 		<div class="popup-border not-clickable">
 			<div class="popup-box">
@@ -100,13 +108,31 @@
 				
 				<form>
 					<input class="input" type="tel" name="number" value="" placeholder="079 XXX XX XX" maxlength="10" />
-					<input type="submit" name="submit" value="Weiter" class="popup-button" />
+					<input type="submit" name="submit" value="Weiter" class="popup-button js-trigger-pin" />
 				</form>
 				
 			</div><!-- .popup-box -->
 		</div><!-- .popup-border -->
 		
-	</div><!-- .popup -->
+	</div><!-- .popup .js-popup1 -->
+	
+	<div class="popup js-popup2">
+		
+		<div class="popup-border not-clickable">
+			<div class="popup-box">
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+				<form>
+					<input class="input" type="tel" name="number" value="" placeholder="3 Digit Pin" maxlength="3" />
+					<input type="submit" name="submit" value="Kaufen" class="popup-button" />
+				</form>
+				<p class="notif"><a href="#">PIN Nochmal Senden</a></p>
+				
+			</div><!-- .popup-box -->
+		</div><!-- .popup-border -->
+		
+	</div><!-- .popup .js-popup2 -->
 
 </body>
 

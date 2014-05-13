@@ -1,0 +1,5 @@
+@media all and (max-width: 560px){
+    #footer li{
+        width: 100%;
+    }
+}
