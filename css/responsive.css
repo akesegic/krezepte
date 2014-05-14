@@ -19,4 +19,7 @@
         .popup-border{
             width: 90%;
         }
+        .popup-box{
+            padding: 20px;
+        }
 }
