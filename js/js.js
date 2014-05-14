@@ -3,6 +3,14 @@ $(document).ready(function(){
 	//Show popup
 	$(".info-box").click(function(event){
 		event.preventDefault();
+		var scrolltop = $(window).scrollTop(),
+		    width = $(window).width();
+		
+		if (width < 560) {
+			$(".popup-border").css("top",scrolltop+30);
+		}else{
+			$(".popup-border").css("top",scrolltop+90);
+		}
 		
 		$(".js-popup1").fadeIn(150);
 	});

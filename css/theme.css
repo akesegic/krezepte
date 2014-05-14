@@ -166,9 +166,8 @@ p{
 	display: none;
 	position: absolute;
 	top: 0;
-	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 1462px;
 	background-color: rgba(255, 255, 255, 0.5);
 	font-weight: bold;
 	font-size: 22px;
@@ -176,7 +175,7 @@ p{
 }
 	.popup-border{
 		position: relative;
-		top: 20%;
+		top: 30px;
 		width: 80%;
 		max-width: 564px;
 		margin: 0 auto;
