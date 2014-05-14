@@ -1,4 +1,12 @@
-@media all and (max-width: 560px){
+@media all and (max-width: 580px){
+    
+    /**********************/
+    /*     HEADER         */
+    /**********************/
+    
+    #header{
+        padding: 0 0 0 10px;
+    }
     
     /**********************/
     /*      FOOTER        */
