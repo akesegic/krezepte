@@ -13,7 +13,8 @@
     /**********************/
     
     #footer li{
-        width: 100%;
+        padding: 18px 18px;
+        font-size: 21px;
     }
     
     
@@ -30,4 +31,30 @@
         .popup-box{
             padding: 20px;
         }
+}
+
+@media all and (max-width: 479px){
+    
+    /**********************/
+    /*      FOOTER        */
+    /**********************/
+    
+    #footer li{
+        padding: 18px 12px;
+        font-size: 18px;
+    }
+    
+}
+
+@media all and (max-width: 380px){
+    
+    /**********************/
+    /*      FOOTER        */
+    /**********************/
+    
+    #footer li{
+        padding: 18px 12px;
+        font-size: 14px;
+    }
+    
 }
